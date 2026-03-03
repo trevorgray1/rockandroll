@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ArtistList from './ArtistList';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
           Welcome to Rock & Roll Genealogy!
         </p>
       </header>
+      <main>
+        <ArtistList />
+      </main>
     </div>
   );
 }
